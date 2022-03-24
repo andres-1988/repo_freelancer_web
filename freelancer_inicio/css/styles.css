@@ -6,8 +6,6 @@
     --gris: #757575;
 } 
 
-
-
 html{
     font-size: 62.5%;
 }
@@ -28,3 +26,26 @@ body{
     font-size: 2rem;
    
 }
+
+.contenedor{
+    width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+ }
