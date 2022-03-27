@@ -1,6 +1,6 @@
 :root{
     --blanco: #ffffff;
-    --occuro: #212121;
+    --oscuro: #212121;
     --primario: #ffc107; 
     --secundario: #0097a7;
     --gris: #757575;
@@ -40,7 +40,6 @@ body{
 }
 
 .navegacion-principal{
-   padding: 1rem;
    display: flex;
    justify-content: space-between;
 }
@@ -48,4 +47,12 @@ body{
 .navegacion-principal a{
     color: var(--blanco);
     text-decoration: none;
+    font-size: 2 rem;
+    font-weight: 700;
+    padding: 1rem;
+ }
+
+ .navegacion-principal a:hover{
+     background-color: var(--primario);
+     color: var(--oscuro);
  }
